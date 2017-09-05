@@ -8,3 +8,24 @@ To make a page title use <title>     . Title appears in browser bar.
 Put content that you actually want to display in your webpage in between the <body>     </body>       .
 In order to write a paragraph use <p>     .
 Use <br/>  to skip a line.    You do not need a closing tag for this.
+Structure:
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Hello World</title>
+  </head>
+
+  <body>
+    <h1>Hello World</h1>
+
+    <div>
+
+    </div>
+  
+  </body>
+</html>
+
+
+The browser always ignores space and lines between tags.
