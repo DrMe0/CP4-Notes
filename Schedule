@@ -1,1 +1,67 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<title> My Schedule </title>
+<body>
+  <table>
+    <tr>
+      <td>Blank </td>
+      <td>Day 1 </td>
+      <td>Day 2</td>
+      <td>Day 3 </td>
+      <td>Day 4 </td>
+      <td>Day 5 </td>
+      <td>Day 6 </td>
+      <td>Day 7 </td>
+      <td>Day 8 </td>
+      <td>Day A1 </td>
+      <td>Day A3 </td>
+      <td>Day A6 </td>
+   </tr>
+   <tr>
+      <td>Period 1 </td>
+      <td> Science </td>
+      <td>French </td>
+      <td>English </td>
+      <td>Physical Education </td>
+      <td>French </td>
+      <td>Computer Programing </td>
+      <td>Religion </td>
+      <td>Math </td>
+    </tr>
+  <tr>
+      <td>Period 2 </td>
+      <td>French </td>
+      <td> Theater Arts </td>
+      <td>Math </td>
+      <td>Computer Programing </td>
+      <td>Theater Arts </td>
+      <td>Math </td>
+      <td>English </td>
+      <td>Physical Education </td>
+    </tr>
+   <tr>
+      <td>Period 3 </td>
+      <td> History </td>
+      <td>Science </td>
+      <td>Science </td>
+      <td>French </td>
+      <td>Religion </td>
+      <td>Science </td>
+      <td>Science </td>
+      <td>French </td>
+    </tr>
+   <tr>
+      <td>Period 4 </td>
+      <td> Computer Programing </td>
+      <td>History </td>
+      <td>Homeroom </td>
+      <td>Speech </td>
+      <td>History </td>
+      <td>Theater Arts </td>
+      <td>Level Arts </td>
+      <td>Speech </td>
+    </tr>
+       
+</body>
+</html>
