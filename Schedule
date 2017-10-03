@@ -5,7 +5,7 @@
 <body>
   <table>
     <tr>
-      <td>Blank </td>
+      <td><strong>Periods</strong> </td>
       <td>Day 1 </td>
       <td>Day 2</td>
       <td>Day 3 </td>
@@ -14,9 +14,6 @@
       <td>Day 6 </td>
       <td>Day 7 </td>
       <td>Day 8 </td>
-      <td>Day A1 </td>
-      <td>Day A3 </td>
-      <td>Day A6 </td>
    </tr>
    <tr>
       <td>Period 1 </td>
@@ -83,6 +80,51 @@
       <td>Math</td>
       <td>Theater Arts </td>
     </tr>
-    </tr>
+	<br>
+	<br>
+	<table>
+		<tr>
+			<td>Periods</td>
+			<td>A1</td>
+			<td>A3</td>
+			<td>A6</td>
+		</tr>
+		<tr>
+			<td>Period 1</td>
+			<td>N/A</td>
+			<td>Religion</td>
+			<td>Science</td>
+		</tr>
+		<tr>
+			<td>Period 2</td>
+			<td>Computer Programing</td>
+			<td>Computer Programing</td>
+			<td>Computer Programing</td>
+		</tr>
+		<tr>
+			<td>Period 3</td>
+			<td>Religion</td>
+			<td>N/A</td>
+			<td>Religion</td>
+		</tr>
+		<tr>
+			<td>Period 4</td>
+			<td>Advisors</td>
+			<td>Advisors</td>
+			<td>Advisors</td>
+		</tr>
+		<tr>
+			<td>Period 5</td>
+			<td>French</td>
+			<td>French</td>
+			<td>French</td>
+		</tr>
+		<tr>
+			<td>Period 6</td>
+			<td>Science</td>
+			<td>Science</td>
+			<td>N/A</td>
+		</tr>
+		</table>
 </body>
 </html>
