@@ -1,9 +1,15 @@
 h1 {
-		font-family: Kunstler Script;
-		font-size: 200px;
+		font-family: Impact;
+		font-size: 150px;
 		text-align: center;
-		color: blue;
-		}
-.Undertale1	{
-		background-image: href :"https://www.ctvnews.ca/polopoly_fs/1.2287740.1426780631!/httpImage/image.png_gen/derivatives/landscape_960/image.png";
-		}
+		color: white;
+}
+th, td {
+	border: 1px solid black;
+}
+table {
+	border: 1px solid blue;
+}
+.Spencer-Howard {
+	font-weight: bold;
+}
