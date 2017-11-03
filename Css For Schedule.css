@@ -1,15 +1,54 @@
 h1 {
-		font-family: Impact;
-		font-size: 150px;
-		text-align: center;
-		color: white;
+	font-family: Impact;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	position: relative;
+	top: -500px;
+	margin-bottom: 0px;
+	z-index: 10;
 }
-th, td {
+td {
 	border: 1px solid black;
 }
 table {
 	border: 1px solid blue;
+	z-index: 10;
 }
 .Spencer-Howard {
 	font-weight: bold;
+}
+.Undertale1 {
+	width: 100%;
+	margin: auto;
+	margin-bottom: 0px;
+	z-index: 8;
+}
+.Undertale2 {
+	width: 250px;
+	margin: 0px;
+	position: fixed;
+	bottom: 600px;
+	left: 1000px;
+	z-index: 10;
+}
+.Undertale3 {
+	display: block;
+	width: 200px;
+	margin: auto;
+	z-index: 8;
+}
+h3 {
+	text-align: center;
+	font-family: cinzel;
+	position: relative;
+	z-index: 3;
+	bottom: 100px;
+}
+.Conde {
+	width: 1000px;
+	margin: auto;
+	position: fixed;
+	z-index: 4;
+	bottom:300px;
 }
