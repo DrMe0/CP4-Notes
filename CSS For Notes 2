@@ -1,1 +1,35 @@
-
+p, h1, h2, h3 {
+	font-family: Comic Sans Ms;
+	text-align: center;
+}
+.BigBoy {
+	font-size: 20px;
+}
+.Arial {
+	font-family: Arial;
+}
+.ppiinnereaapppppllee {
+	color: blue;
+}
+.Undertale {
+	font-weight: bold;
+}
+.LEEEEft {
+	text-align: right;
+}
+.DunkedOnYou {
+	background-color: yellow;
+}
+.P {
+	opacity: 0.70;
+}
+.HisDarkMaterials {
+	background-image: url("https://vignette.wikia.nocookie.net/hdm/images/7/7e/Modern_World_Golden_Compass.jpg/revision/latest?cb=20131108101726")
+}
+pre {
+	font-family: Comic Sans Ms;
+	font-size: 16px
+}
+.Lyra {
+	font-family: "Arial";
+}
