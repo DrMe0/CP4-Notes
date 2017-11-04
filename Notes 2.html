@@ -1,94 +1,125 @@
-You can add the   style tag into your code.
-You can use color:  to change the color. Example: <p style="color: red;">I'm learning to code!</p>
-End style with ;
-Use font-size: 20px;  to set the font size. Px or pixels is the unit of mesurement.
-Use font-family to set the font to something like Arial.
-Use <style> to set the style in the <head>.
-Links
-  
-href  = anchor element]
-type  = type of document you are attempting to link to. Val;ue should be set to text/css
-rel   = defines the relationship between the documents you are linking. Should be set to stylesheet.
-  
-Example: <link href="https://www.codecademy.com/stylesheets/style.css" type="text/css" rel="stylesheet">
-
-  color to change the color.
-class can be used to set something to select. Seeting something to"Theodore" and then when you mention this class it will be done as you describe to it. Example: <p class="brand">Sole Shoe Company</p>
-Put . in front of your class when you call it in your Css style sheet.
-  ppiinnereaapppppllee
-Put title then the class
-id="something" put something in here that tyou want to define more indivifuyally outisde class.
-pUT #SOMETHING WHEN YOU PUT THE ID.
-TO make class
-  .classname {
-    Paramater;
-  }
- Or
- Classname1.Classname2 {
-   Perimeter;
-  }
- To call class
-  class = " Class1 Class2"
-Nested element, to make it more specific so ven if you try and seledcted with a broad thing it will not work.
-.description h5 {
-  color: teal;
+<!DOCTYPE HTML>
+	<html>
+    		<head>
+      			<title> # CP4-Notes </title>
+			<!-- I am not sure how to link to Git Hub, so I am putting the Url of the site as the target for the link below. -->
+			<link href= "C:\Kyle\School\Sec 4\Computer Programming\Css for Notes 2.css" type= "text/css" rel= "stylesheet"/>
+    		</head>
+    		<body>
+			<h1> #CPS-Notes-2 </h1>
+			<h2> In this document, < and > have been replaced with ( and ). </h2>
+			<h3> Linking The Style Sheet </h3>
+			<p> You have to link a stylesheet to an HTML document using the (link tag)
+			<ul>
+				<li> href  = The location of the target you are linking, is actually called the anchor element. </li>
+				<li> type  = type of document you are attempting to link to. Value should be set to text/css </li>
+				<li> rel   = defines the relationship between the documents you are linking. Should be set to stylesheet. </li>
+			</ul>
+			<p> Example: <a href="http://digitalspyuk.cdnds.net/17/07/768x431/gallery-1487157385-pjimage-99.jpg"> (link href= "C:\Kyle\School\Sec 4\Computer Programming\Css for Notes 2.css" type= "text/css" rel= "stylesheet"/) </a> <br> The example is also the stylesheet that is affecting this code. </p>
+			<h3> Modifiers </h3>
+			<p> You can put modifiers, direcly in the HTML code or on the stylesheet. Use the attribrute style or the style tag in the header to set the style in the (head). Example <br> (p style="color: red;")Red 2, The Movie (/p) <br> <p> This gives: </p> <p style="color: red;">Red 2, The Movie </p>
+			<p> In the style sheet, declare the target, then declare the attributes and their values between {} and ending them with End style with ; </p>		
+			<p> You can use color... to change the color.
+			<p> Use font-size to set the font size. Add a value in pixels. For example: </p>
+			<p class= "BigBoy"> 20px </p>
+			<p class= "Arial"> Use font-family to set the font type. Set the value to the name of a font family, like Arial. </p>
+			<p class="Undertale"> In order to set the text to bold use the font-weight element. Set the values to bold or normal to do this. </p>
+			<p class="LEEEEft"> Use the text-align element to align the text to the left, right or center. </p>
+			<p class="DunkedOnYou"> Use background-color to set the background color for something, which is basically CSS highlighting. </p>
+			<p class ="P"> Use opacity to set the transparancy of an element. 0 = 0% transparency and you can go all the way up to 1 which equals 100% transparency. </p>
+			<p class= "HisDarkMaterials"> background-image makes the background the target element a target image. The image should be within brackets and in quoatations next to a declaration of url.. Example: url("https://vignette.wikia.nocookie.net/hdm/images/7/7e/Modern_World_Golden_Compass.jpg/revision/latest?cb=20131108101726") </p>
+			<h3> Target </h3>
+			<p> Class can be used to target multiple or just one element of the code. Setting something to the class "<span class= "ppiinnereaapppppllee">Theodore </span>" and then if you change something that affects this class, this element will change to. </p>
+			<p> For example, changing the color of the class <span class= "ppiinnereaapppppllee"> ppiinnereaapppppllee </span> will change color of the word <span class = "ppiinnereaapppppllee"> ppiinnereaapppppllee </span> and <span class= "ppiinnereaapppppllee"> Theodore </span>. </p>
+			<p> Put . in front of your class when you call it in your Css style sheet. </p>
+			<p> You may also use id to target something. </p>
+			<p> Simply use a # instead of a . in the stylesheet. </p>
+			<p> Example of calling a class: (p class= "BigBoy") 20px (/p) </p>
+			<p> If the you wish to call more then one element for a rule on the stylesheet, put a comma between them. </p>
+			<p> Not putting a comma, makes the element nested. Nested element make the rule's target more specific as the target element must correspond to all the elements presented.
+			<p> Adiding !important will make that rule overide anything. </p>
+			<h3> The Box Model </h3>
+			<p> Border is the border, the line, the frontier, of the box model. </p>
+			<p> Modify border corners with border-radius and put in a pixel value. Does not need to be a sqaure or a rectangle, to make the border a circle declare a value of 100%. </p>
+			<p> Padding: "space between a picture and a frame" (Direct quote from Code Academy, and most suff here is taken from it. </p>
+			<p> Use padding to set the padding space. Put a pixel value. You can use this to extend background color and suff and make stuff less stuck together. <p>
+			<p> You can more specific with each padding-(side) you want bigger. Example: top, left, right, bottom or put multiple values in one statment. <br> Values will be assigned in this order: (top)px, (right)px, (bottom)px, (left)px. Only two values makesthe first one equal to the top and bottom and the second one uses the left and right side padding width. </p>
+			<p> Margin refers to tbe space "outside the box". And follows the same rues as padding.
+			<p> MAKE YOUR LIFE EASIER (maybe) WITH AUTO! Putting the auto makes the margins change until the elements is centered with all the other ones. </p>
+			<p> Makes sure to give an element a width and a height for you can not center something that takes up the whole screen. </p>
+			<p> Use width and height to set the width and height. </p>
+			<p> When two margins are next to each other they are added together forever in a bond of beautiful union and are forever displayed as such. Therefore two 10px margins would add to 20px. </p>
+			<p> Webpage are always changing because of computer multi culturism so you can use max-width and min-width to save yourself from being assimilated. Height can also be protected. Be careful, assimilation can cause text spillage if you make these values baddly. </p>
+			<p> In case of overflow use overflow to unoverflow the overflow with these handy properties: </p>
+			<ul>
+				<li> hiddej: hides the overflow, scroll: adds a scroll bar so you can scroll down it </li>
+				<li> visible: makes the suff visible and is what is it is set to if you do not put anyhting else. </li>
+			</ul>
+			<p> In order to reset the defalt style sheets use: </p>
+			<pre>
+			* {
+				margin: 0;
+				padding:0;
+  			}
+			</pre>
+			<h3> Other </h3>
+			<p> If you want to program something but do not want to use it yet use the visibility proberty and set it to hidden or visible. Use display: none to remove it from the webpage, since this one removes it completely but the visibility property still lets you see the space reserved for it. </p>
+ 			<h3> Changing the box model </h3>
+			<p>The tag property box-sizing is used to define what box model to use. The box model is normally set to content-box, but, you can also set it to border-box. <br> This property is put in between the braquets refering to the * propety, so * {}. <br> * is the... is the... universal selector. </p>
+			<p>In the actual box model the total width is all the property combined inclding the set content width, but, in the new box model the content width is set to the remaining width on the page. </p>
+  			<h3> Position </h3>
+			<p> Use the position property to set the position. You can set it to: </p>
+			<ul>
+				<li> static which is the default and just where you put it in your html code. </li>
+				<li> relative lets you put in it relative to its static location in the html code by pixel, em or percentage values in the top (move down) bottom (move up) left (move right) left (move right) properties. </li>
+				<li> absolute makes everybody pretend it that the element associated with the code does not exist and that the element will be displaced and if you recise it it will cover things and stuff. </li>
+				<li> fixed makes something stay in place no matter what a person does, no scrlling escapes, but you must define it like the relative property. </li>
+ 			</ul>
+			<p> z-index: What goes on top of what. The bigger the associated value, the more on top that element is! </p>
+			<p> display: can it share horizontal space, or what? Does not make it bigger, or does it make the element next to it skip a line? So many questions, and so much more code to write.</p>
+			<ul>
+				<li> inline makes a box only take the room it needs, shares lines. </li>
+				<li> When display is set to block the element fills up the width of the page and takes the height it needs. </li>
+				<li> Setting display to inline-block means you can set it using height and width. </li>
+				<li> Float makes it move in a direction to its max, use the values left and right. Elements can be block each other if ther are multiple floaters so use clear to regulate this. The value left means that element will not touch any element within its conatiner on its left side, same for right and both and none is just none. </li>
+			<h3> Example Of What The Stylesheet looks like: </h3>
+			<pre>
+p, h1, h2, h3 {
+	font-family: Comic Sans Ms;
+	text-align: center;
 }
-Adiding !important will make something whatever you put with it no matter what, will overide anything.
-Adding a comma between seletors
-Font Families ex: 
-  h1 {
-  font-family: "Courier New";
+.BigBoy {
+	font-size: 20px;
 }
-Use the tag font-family and then put the name of the font family.
-Use font-size to set the font size. Put the mesuarement in px. Ex: 18px .
-In order to set the text to bold use the font-weight element. Set the values to bold or normal to do this.
-Use the text-align element to align the text. The options are left, right, center.
-Use color to set the color of something (color it appears in) and use background-color to set the background color for something.
-Use the .opacity to set the transparancy of an element. 0 = 0% and you can go all the way up to 1 which equals 100%.
-background-image sets the background of an object to that image. Example:
-.main-banner {
-  background-image: url("https:/hick. 
- Border styles= can be 10 different ones. Head on over to Border Style to have some fuin and LEARN ABOUT BORDERS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! https://developer.mozilla.org/en-US/docs/Web/CSS/border-style#Values . color is to set the color of the border.
-You have tpo pu them under the bordern tag:
-p.content-header {
-  height: 80px;
-  width: 240px;
-  border: solid coral;
+.Arial {
+	font-family: Arial;
 }
-Modify border corners so basically the shape with border-radius  and put in a pixel value. To make the border a circle ue 100%
-Padding: "space between a picture and a frame"
-Use padding to set the padding space. Put a pixel value. You can use this to extend background color and suff and make stuff less stuck together.
-Be specific with padding-(location). Example: top, left, right, bottom) or put multiple values in one statment padding: (top)px, (right)px, (bottom)px, (left)px Only two values mmakes the first one ewual to the top and bottom and he second one used to the left and right side padding width.
-Margin is set using margin and a pixel amount andit refers to tbe space "outside the box".
-Follows (Margin) the same rues as padding.
-MAKE YOUR LIFE EASIER (maybe) WITH AUTO:
-Example:
-div {
-  margin: 0 auto;
+.ppiinnereaapppppllee {
+	color: blue;
 }
-Putting the auto makes the margins change until the elements is centered with all the other ones.
-Makes sure to givean element a width and a height for ypu can not cnter something that takes up the whole screen.
-Use width and height to set the width and height.
-When two margins are next to each other they are added together forever in a bond of beautiful union and are forever displayed as such. Therefore two 10px margins would add to 20px and ut two elements 2px from each other.
-Margins collapse? Ask Mr Degano about his.
-Webpage are always chagin because of computer multi cultuasim so yu can use max-width and min-width to save yourself from being assimilated. Height can also be protected. Be carefull, assimilation can cause text spillage if you make these values.
-In case of overflow use overflow to unoverflow the overflow with these handy properties: hiddej: hides the overflow, scroll: adds a scroll bar so you can scroll down it, visible: makes the suff visible and is what is it is set to if you do not put anyhting else.
-In order to reset the defalt style sheets use:
-  * {
-    margin: 0;
-    padding:0;
-  }
-If you want to program something but do not want to use it yet use the visibility proberty and set it to hidden or visible. Use display: none to remove it from the webpage, since this one removes it completely bu the visibility property still lets you see the space reserved for it.
-
-  Changing the box model:
-  When it causes problems (the box model that is)
-  The tag property box-sizing is used to defi e what box model to use. The box model is set to content-box .
-  You can also set it to border-box . This proper ty is put in between the braquets refering to the * propety, so * {}. Ths is because that is the universal selector.
-  In the actual box model the total width is all the property combined inclding the set content width, in the new box model the content width is set to the remaining width on the page.
-  Use the position property to set the position. You can put it to static which is the default and just where you put it in your html code, relative lets you put in it relative to its static location in the html code by pixel, em or percentage values in the top (move down) bottom (move up) left (move right) left (move right) properties which are seperate from the property I just wrote about, absolute makes verybody pretend it the lement associated with the code does not exist and the lement will be displaced and if you recise it it will cover things and stuff, fixed makes something stay in place no matter what a person does no scrlling escapes but you must define it like the relative property.
-  Do chose what is on top of what on this plain use z-indez and input a integer value, the bigger it is, the more on top!
-display: can it share horizontal space, or what? Does not make it bigger, just does it make the elemnt next to it skip a line?
-inline makes a box only take the room it needs, shares lines
-When display is setgo block the element fills up the width of the page and takes the height it needs.
-Setting didplay to inline-block means you can set it using height and width.
-float makes it move in a direction to its max, use the values left and right, elemnts can be block each other if ther are multiple floaters so use clear to regulate this. The value left menas thsat element will not touch any elment within its conatiner, same for right and both and none is just none.
+.Undertale {
+	font-weight: bold;
+}
+.LEEEEft {
+	text-align: right;
+}
+.DunkedOnYou {
+	background-color: yellow;
+}
+.P {
+	opacity: 0.70;
+}
+.HisDarkMaterials {
+	background-image: url("https://vignette.wikia.nocookie.net/hdm/images/7/7e/Modern_World_Golden_Compass.jpg/revision/latest?cb=20131108101726")
+}
+pre {
+	font-size: 16px
+}
+			</pre>
+			<h3> Incitful Links </h3>
+			<a href= "https://github.com/Lord-Asriel/CP4-Notes/blob/master/Notes%201.html"> Notes on HTML </a> <br>
+			<a href= "https://github.com/Lord-Asriel/CP4-Notes/blob/master/CSS%20For%20Notes%202"> CSS For Notes 2 </a> <br>
+			<a href= "http://undertale.wikia.com/wiki/Main_Page"> Undertale Wiki </a> <br>
+			<a href= "https://www.youtube.com/watch?v=yRCqL7ACxOY&list=RDoC_hoQHXAnM&index=5"> My Juin Math Exam, Can't Wait (sarcasm)! </a> <br>
+			<a href= "https://www.youtube.com/watch?v=SxNcKXjfaQo"> Undertale Full OST </a> <br>
+	</html>
