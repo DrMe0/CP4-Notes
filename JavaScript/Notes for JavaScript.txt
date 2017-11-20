@@ -30,3 +30,12 @@ Use let to create a more changable vafriable.
 Math
 The first three operators (+=, -=, and *=) perform the mathematical operation of the first operator (+, -, or *) using the number on the right, then assign the new value to the variable.
 The last two operators are the increment (++) and decrement (--) operators. These operators are responsible for increasing and decreasing a number variable by one, respectively.
+
+The JavaScript term for inserting the data saved to a variable into a string is string interpolation.
+
+The + operator, known until now as the addition operator, is used to interpolate (insert) a string variable into a string, as follows:
+
+let myPet = 'armadillo';
+console.log('I own a pet ' + myPet + '.'); 
+// Output: 'I own a pet armadillo.'
+You can accomplis the same thing by using ${}. Example: console.log(`I own a pet ${myPet}.`)
