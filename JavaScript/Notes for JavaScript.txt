@@ -38,4 +38,4 @@ The + operator, known until now as the addition operator, is used to interpolate
 let myPet = 'armadillo';
 console.log('I own a pet ' + myPet + '.'); 
 // Output: 'I own a pet armadillo.'
-You can accomplis the same thing by using ${}. Example: console.log(`I own a pet ${myPet}.`)
+You can accomplis the same thing by using ${}. Example: console.log(`I own a pet ${myPet}.`) Make sure to put those cool things instead of quotations marks.
