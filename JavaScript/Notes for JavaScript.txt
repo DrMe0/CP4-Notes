@@ -50,3 +50,20 @@ Unset variables store the primitive data type undefined.
 Mathematical assignment operators make it easy to calculate a new value and assign it to the same variable.
 The + operator is used to interpolate (combine) multiple strings.
 In JavaScript ES6, backticks (`) and ${} are used to interpolate values into a string.
+
+Control Flow
+
+Control flow statements enable JavaScript programs to make decisions by executing code based on a condition. If a given condition is true, we execute one block of code. If the statement is false, we execute another block of code.
+
+if/else statements
+
+Lines of code between curly braces are called blocks. if/else statements have two code blocks. If the variable needsCoffee is true, the program will run the first block of code. Otherwise, it will run the other block of code.
+needsCoffee is the condition we are checking inside the if's parentheses. Since it is equal to true, our program will run the code between the first opening curly brace { (line 2) and the first closing curly brace } (line 4). It will ignore the else { ... } part. In this case, we'd see Finding coffee log to the console.
+If needsCoffee were false, only the console.log() statement in the else block would be executed.
+Examples:
+let needsCoffee = true;
+if (needsCoffee === true) {
+    console.log('Finding coffee');
+} else {
+    console.log('Keep on keeping on!');
+}
