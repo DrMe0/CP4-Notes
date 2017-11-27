@@ -67,3 +67,16 @@ if (needsCoffee === true) {
 } else {
     console.log('Keep on keeping on!');
 }
+The second line of this program checks a condition if (variableOne). In the previous exercise, we checked if a variable was equal to true or false. By only writing the name of the variable as the condition, we are checking the truthiness of the variableOne. In this case, variableOne contains a truthy value.
+
+If we changed if (variableOne) to say if (variableTwo), that condition would evaluate to falsy because we have not created a variable called variableTwo in this program. In other words, variableOne is truthy and variableTwo is falsy.
+
+All variables that have been created and set are truthy (and will evaluate to true if they are the condition of a control flow statement) unless they contain one of the seven values listed below:
+
+false
+0 and -0
+"" and '' (empty strings)
+null
+undefined
+NaN (Not a Number)
+document.all (something you will rarely encounter)
