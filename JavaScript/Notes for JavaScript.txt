@@ -178,3 +178,108 @@ Inside the block, { ... }, there are cases. case is like the else if part of an 
 groceryItem equals 'papaya', so the first and second case statements are skipped. The third case runs since the case is 'papaya', which matches groceryItem's value. This particular program will log Papayas are $1.29.
 Then the program stops with the break keyword. This keyword will prevent the switch statement from executing any more of its code. Without adding break at the end of each case, the program will execute the code for all matching cases and the default code as well. This behavior is different from if/else conditional statements which execute only one block of code.
 At the end of each switch statement, there is a default condition. If none of the cases are true, then this code will run.
+
+Before we move on, let's circle back to else if statements.
+
+Using else if is a great tool for when we have a few different conditions we'd like to consider.
+
+else if is limited, however. If we want to write a program with 25 different conditions, like a JavaScript cash register, we'd have to write a lot of code, and it can be difficult to read and understand.
+
+To deal with times when you need many else if conditions, we can turn to a switch statement to write more concise and readable code.
+
+To a computer, a switch statement and an if/else statement are the same, but a switch statement can be easier for other humans to read. Part of being a good developer is writing code that both computers and other humans can read.
+
+switch statements look like this:
+
+let groceryItem = 'papaya';
+
+switch (groceryItem) {
+  case 'tomato':
+    console.log('Tomatoes are $0.49');
+    break;
+  case 'lime':
+    console.log('Limes are $1.49');
+    break;
+  case 'papaya':
+    console.log('Papayas are $1.29');
+    break;
+  default:
+    console.log('Invalid item');
+    break;
+}
+The switch keyword initiates the statement and is followed by ( ... ), which contains the condition that each case will compare to. In the example, the condition is groceryItem.
+Inside the block, { ... }, there are cases. case is like the else if part of an if/else if/else statement. The word following the first case is 'tomato'. If groceryItem equalled 'tomato', that case's console.log() would run.
+groceryItem equals 'papaya', so the first and second case statements are skipped. The third case runs since the case is 'papaya', which matches groceryItem's value. This particular program will log Papayas are $1.29.
+Then the program stops with the break keyword. This keyword will prevent the switch statement from executing any more of its code. Without adding break at the end of each case, the program will execute the code for all matching cases and the default code as well. This behavior is different from if/else conditional statements which execute only one block of code.
+At the end of each switch statement, there is a default condition. If none of the cases are true, then this code will run.
+
+In the previous exercise, we learned shorthand for writing multiple if/else if/else statements to make them easier to read. JavaScript also provides a way to shorten simple if/else statements called the ternary operator.
+
+let isNightTime = true;
+
+if (isNightTime) {
+  console.log('Turn on the lights!');
+} else {
+  console.log('Turn off the lights!');
+}
+In the example above, we see a very familiar pattern. See the example below for an equivalent way to express this.
+
+isNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!');
+The code in the example above will operate exactly as the code from the previous example. Let's break this example into its parts:
+
+isNightTime ? — the conditional statement followed by a question mark. This checks if isNightTime is truthy.
+console.log ('Turn on the lights!') — this code will be executed if the condition is truthy.
+: — a colon separates the two different blocks of code that can be executed.
+console.log('Turn off the lights!'); — this code will be executed if the condition is falsy
+In this example, we checked if the value of a variable was true or false. The ternary operator can be used for any condition that can be evaluated to true or false, such as those with comparison operators.
+
+age >= 16 ? console.log('You are old enough to drive in the United States!') : console.log('You are not old enough to drive in the United States!');
+In the example above, the conditional statement is checking whether the value of the variable age is greater than or equal to 16. If so, a message that states the user is old enough to drive will be logged to the console. Otherwise, a message that states the user is not old enough to drive will be logged.
+
+Way to go! We just learned a lot of control flow concepts:
+
+if/else statements make binary decisions and execute different code based on conditions.
+All conditions are evaluated to be truthy or falsy.
+We can add more conditional statements to if/else statements with else if.
+switch statements make complicated if/else statements easier to read and achieve the same result.
+The ternary operator (?) and a colon (:) allow us to refactor simple if/else statements.
+Comparison operators, including <, >, <=, and >= can compare two variables or values.
+After two values are compared, the conditional statement evaluates to true or false.
+The logical operator && checks if both sides of a condition are truthy.
+The logical operator || checks if either side is truthy.
+The logical operator !== checks if the two sides are not equal.
+An exclamation mark (!) switches the truthiness / falsiness of the value of a variable.
+One equals symbol (=) is used to assign a value to a variable.
+Three equals symbols (===) are used to check if two variables are equal to each other.
+
+How does this code work?
+
+let calculatorIsOn = false;
+
+const pressPowerButton = () => {
+  if (calculatorIsOn) {
+    console.log('Calculator turning off.');
+    calculatorIsOn = false;
+  } else {
+    console.log('Calculator turning on.');
+    calculatorIsOn = true;
+  }
+};
+
+pressPowerButton();
+// Output: Calculator turning on.
+
+pressPowerButton();
+// Output: Calculator turning off.
+Let's explore each part in detail.
+
+1. We created a function named pressPowerButton.
+
+const pressPowerButton creates a variable with a given name written in camelCase.
+The variable is then set equal = to a set of parentheses followed by an arrow token () =>, indicating the variable stores a function. This syntax is known as arrow function syntax.
+Finally, between the curly braces {} is the function body, or the JavaScript statements that define the function. This is followed by a semi-colon ;. In JavaScript, any code between curly braces is also known as a block.
+2. Inside the function body is an if/else statement. 
+
+3. On the last few lines, we call the function by writing its name followed by a semi-colon pressPowerButton();. This executes the function, running all code within the function body. 
+
+4. We executed the code in the function body twice without having to write the same set of instructions twice. Functions can make code reusable!
