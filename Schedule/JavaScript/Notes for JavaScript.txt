@@ -1,0 +1,21 @@
+Consol is used to keepm travk of output.
+Use console.log("Hello!"); to print something or log it.
+Data type: Strings are in double quotes and are any random numbers and letters. Numbers — Any number, including numbers with decimals: 4, 1516, .002, 23.42. In the example above, 40.7 is a number.
+          Booleans — Either true or false, with no quotations. In the example above, true is a boolean.
+          Null — Can only be null. It represents the absence of value.
+Math: JavaScript supports the following math operators:
+      Add: +
+      Subtract: -
+      Multiply: *
+      Divide: /
+Use .lenght to find the number of characters in a instance, which is anything you submit. Example: console.log("Teaching the world how to code".length);
+Method makes stuff happen. You can use them inside a brcket with a (0 at the end of them to make them do stuff. On the first line, the .toUpperCase() method is called on the string instance 'Hello'. The result is logged to the console. This method returns a string in all capital letters: 'HELLO'.
+On the second line, the .startsWith() method is called on the string instance "Hey". This method also accepts the character 'H' as an input between the opening and closing parentheses. Since the string 'Hey' does start with the letter 'H', the method returns the boolean true.
+Use https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/prototype to look at stuff.
+To remove whitespace put the .trim method.
+Library, use to call a method without an instance. Just put it in console.log.
+Math.random() * 50; It will retiurn a number between 0 and 1. Use the * and 50.
+Math.floor rounds the number down to the nearest whole number.
+Example of putting things in brackets:
+console.log(Math.floor(Math.random() * 100))
+Comment put after // or for a multy line comment put it between /* and */
