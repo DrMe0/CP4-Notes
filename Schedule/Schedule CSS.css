@@ -6,12 +6,11 @@ h1 {
 	position: relative;
 	top: -500px;
 	margin-bottom: 0px;
-	z-index: 9;
+
 }
-table, td {
-	border: 1px solid blue;
+table, td, tr {
+	border: 2px solid blue;
 	position: static;
-	z-index: 100;
 }
 .Spencer-Howard {
 	font-weight: bold;
@@ -20,7 +19,7 @@ table, td {
 	width: 100%;
 	margin: auto;
 	margin-bottom: 0px;
-	z-index: 8;
+
 	position: relative;
 }
 .Undertale2 {
@@ -44,4 +43,14 @@ h3 {
 	z-index: 9;
 	bottom: 300px;
 	left: 1130px;
+}
+
+body {
+	background-color: white;
+}
+form {
+	text-align: center;
+}
+h4 {
+	text-align: center
 }
