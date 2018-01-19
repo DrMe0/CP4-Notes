@@ -377,3 +377,44 @@ Take a look at the getFahrenheit() function. Inside of its block, we called mult
 Finally, on the last line, we interpolated the function call within a console.log() statement. This works because getFahrenheit() returns its value.
 
 We can use functions to section off small bits of logic or tasks, then use them when we need to. Writing functions can help take large and difficult problems and break them into small and manageable problems.
+
+Example:
+let orderCount = 0;
+
+const takeOrder = (topping, crustType) => {
+  orderCount++;
+  console.log('Order: ' + crustType + ' pizza topped with ' + topping);
+};
+
+takeOrder('mushroom', 'thin crust');
+takeOrder('spinach', 'whole wheat');
+takeOrder('pepperoni', 'brooklyn style');
+
+const getSubTotal = (itemCount) => {
+  return itemCount * 7.5;
+};
+
+const getTax = () => {
+ return getSubTotal(orderCount) * 0.06; 
+};
+
+const getTotal = () => {
+  return getSubTotal(orderCount) + getTax(); 
+}; 
+
+console.log(getSubTotal(orderCount));
+console.log(getTotal());
+
+Now that we have an understanding of functions in JavaScript, let's take a broader look at the type of functions we'll see. Functions in JavaScript are generally declared as either a function declaration or a function expression.
+
+A function declaration is a function that is bound to an identifier or name.
+
+function square (number) {
+  return number * number; 
+}
+
+console.log(square(5));
+// Output: 25.
+Function declarations require the keyword function, a name, and a function body. You can identify this by the use of function square() and the {} below. Function declarations do not end in a semi-colon.
+
+Let's create a basic function declaration.
