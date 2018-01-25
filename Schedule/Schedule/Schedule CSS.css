@@ -19,7 +19,6 @@ table, td, tr {
 	width: 100%;
 	margin: auto;
 	margin-bottom: 0px;
-
 	position: relative;
 }
 .Undertale2 {
@@ -53,4 +52,37 @@ form {
 }
 h4 {
 	text-align: center
+}
+.Math:hover{
+	background-color: black;
+}
+.French:hover{
+	background-color: blue;
+}
+.Speech:hover{
+	background-color: brown;
+}
+.Theater-Arts:hover{
+	background-color: green;
+}
+.Computer-Programing:hover{
+	background-color: yellow;
+}
+.English:hover{
+	background-color: red;
+}
+.Advisors:hover{
+	background-color: violet;
+}
+.Physical-Education:hover{
+	background-color: gray;
+}
+.Religion:hover{
+	background-color: purple;
+}
+.History:hover{
+	background-color: orange;
+}
+.Science:hover{
+	background-color: pink;
 }
