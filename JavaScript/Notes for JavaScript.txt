@@ -418,3 +418,91 @@ console.log(square(5));
 Function declarations require the keyword function, a name, and a function body. You can identify this by the use of function square() and the {} below. Function declarations do not end in a semi-colon.
 
 Let's create a basic function declaration.
+
+A function expression is similar to function declaration, with the exception that identifier can be omitted, creating an anonymous function. Function expressions are often stored in a variable. You can identify a function expression by the absence of a function name immediately trailing the function keyword.
+
+const square = function (number) {
+  return number * number;
+};
+
+console.log(square(5));
+// Output: 25.
+Also note function expressions end with a semi-colon since they are stored in a variable.
+
+In this lesson, we have primarily been using a type of function expression known as an arrow function. Arrow function syntax is a shorter syntax for a function expression. You can identify arrow functions through the use of parentheses and the arrow token () =>.
+
+const square = (number) => {
+  return number * number;
+};
+
+console.log(square(5));
+// Output: 25.
+It's important to be familiar with the multiple ways of writing functions, since you will come across these in JavaScript code.
+
+A function expression is similar to function declaration, with the exception that identifier can be omitted, creating an anonymous function. Function expressions are often stored in a variable. You can identify a function expression by the absence of a function name immediately trailing the function keyword.
+
+const square = function (number) {
+  return number * number;
+};
+
+console.log(square(5));
+// Output: 25.
+Also note function expressions end with a semi-colon since they are stored in a variable.
+
+In this lesson, we have primarily been using a type of function expression known as an arrow function. Arrow function syntax is a shorter syntax for a function expression. You can identify arrow functions through the use of parentheses and the arrow token () =>.
+
+const square = (number) => {
+  return number * number;
+};
+
+console.log(square(5));
+// Output: 25.
+It's important to be familiar with the multiple ways of writing functions, since you will come across these in JavaScript code.
+
+Example:
+const isGreaterThan = (numberOne, numberTwo) => {
+if (numberOne > numberTwo){
+  	return true
+		}else{
+    return false
+    }
+}
+
+isGreaterThan(5,7)
+
+JavaScript also provides several ways to refactor arrow function syntax. We'll explore a few of these techniques here, using an example function from a previous exercise.
+
+const multiplyByNineFifths = (celsius) => {
+  return celsius * (9/5);
+};
+
+const getFahrenheit = (celsius) => {
+  return multiplyByNineFifths(celsius) + 32;
+};
+
+console.log('The temperature is ' + getFahrenheit(15) + '°F');
+We can refactor this function in three ways. The most condensed form of the function is known as concise body.
+
+Review Functions
+This unit introduced you to functions.
+
+Functions are written to perform a task.
+Functions take data, perform a set of tasks on the data, and then return the result.
+We can define parameters to be used when calling the function.
+When calling a function, we can pass in arguments, which will set the function's parameters.
+We can use return to return the result of a function which allows us to call functions anywhere, even inside other functions.
+Functions that take a single parameter should not use parentheses. The code will still work, but it's better practice to omit the parentheses around single parameters. However, if a function takes zero or multiple parameters, parentheses are required.
+A function composed of a sole single-line block is automatically returned. The contents of the block should immediately follow the arrow => and the return keyword can be removed. This is referred to as implicit return.
+A function composed of a sole single-line block does not need brackets.
+In other words, the previous code can be refactored like this:
+
+const multiplyByNineFifths = celsius => celsius * (9/5);
+
+const getFahrenheit = celsius => multiplyByNineFifths(celsius) + 32;
+
+console.log('The temperature is ' + getFahrenheit(15) + '°F');
+You'll notice:
+
+The parentheses around celsius have been removed, since it is a single parameter.
+The return keyword has been removed since the function consists of a single-line block.
+The {} have been removed, again, since the function consists of a single-line block.
