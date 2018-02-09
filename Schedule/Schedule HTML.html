@@ -140,10 +140,10 @@
 			<td>N/A</td>
 		</tr>
 		</table>
-		<form id="SearchBar">
-			<input placeholder="Input Class" type= "text" 
-			<input type = "submit" value= "Confirm">
+		<form>
+			<input id="SearchBar" placeholder="Input Class" type= "text">
 		</form>
+		<button onclick="DearHearts()">Submit Class</button>
 		<br>
 		<br>
 		<br>
@@ -176,9 +176,10 @@
 			document.getElementsByClassName("Religion").innerHTML = Religion;*/
 			var BigMommy = 1;
 			var F = "You do realise that you are clicking in the wrong place right now? If you want to see more imformation about a class you can just go ask me! <br> Because you certainly won't find that information here! So stop looking for it you sack a main and if your that desparite you can just go use the <br> sesrchbar below. Seruiosuly just stop. Spencer why are you talking tio me riught now."
-			/*function Happy() {
+			function Happy() {
 			  document.getElementById("Table1").innerHTML = F
 			}
+			/*
 			window.addEventListener("scroll", TheoTheFunction); */
 			
 			/*function TheoTheFunction() {
@@ -194,25 +195,39 @@
 			}
 			var ThatsHowTheWeekendGoes =asdf
 			*/
-			var typedClass = document.getElementById("SearchBar").value;
-			
-			switch (typedClass){
+			function DearHearts() {
+				var typedClass = document.getElementById("SearchBar").value;
+				switch (typedClass){
 				case "French":
-					
+					console.log("Mac");
+					break;
 				case "Math":
-					
+					console.log("Mac");
+					break;
 				case "English":
-					
+					console.log("Mac");
+					break;
 				case "Computer Programing":
-					
-				case "History":
-				
+					console.log("Mac");
+					break;
+				case "Theater Arts":
+					console.log("Mac");
+					break;
+				case "Speech":
+					console.log("Mac");
+					break;
 				case "Gym":
-				
-					
+					console.log("Mac");
+					break;
+				case "Advisors":
+					console.log("Mac");
+					break;
+				case "Religion":
+					console.log("Mac");
+					break;
+				}
 			}
 				
-			
 		</script>
 			
 	</body>
