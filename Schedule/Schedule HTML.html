@@ -2,16 +2,20 @@
 <html>
 	<head>
 		<title> My Schedule </title>
+		<!--This is the part where the external css documents are linked in-->
 		<!--Use this link when at school for CSS. -->
 		<!--<link href="C:\Users\hoguek\Data\Computer Programing\Schedule\Schedule CSS.css" type="text/css" rel="stylesheet"/> -->
 		<!--Use this link when at home for CSS. -->
 		<link href="C:\Kyle\School\Sec 4\Computer Programming\Schedule\Schedule CSS.css" type="text/css" rel="stylesheet"/>
 	</head>
 	<body>
+		<!--Picture of school-->
 		<image class="Undertale1" src="https://www.ctvnews.ca/polopoly_fs/1.2287740.1426780631!/httpImage/image.png_gen/derivatives/landscape_960/image.png"/>
+		<!--Picture of school emblem-->
 		<image class="Undertale2" src="http://catholicmontreal.ca/assets/uploads/cache/images/loyola_t/loyola_t-3827021352.png"/>
 		<h1> MY SCHEDULE </h1>
 		<h3 id="SayIt"> Scroll Down</h3>
+		<!--First schedule table. Clickling on it runs the function Happy()-->
 		<table onclick="Happy()" id="Table1">
     		<tr class="Spencer-Howard">
       			<td> Periods </td>
@@ -91,12 +95,14 @@
       			<td class= "Theater-Arts">Theater-Arts </td>
     		</tr>
 		</table>
+		<!--These <br> are responsable for the space between the two tables -->
 		<br>
 		<br>
 		<br>
 		<br>
 		<br>
 		<br>
+		<!-- The second schedule table. Clicking on it runs the function Happy() -->
 		<table onclick="Happy()" id="Table1">
 			<tr class="Spencer-Howard"> <!-- Names of the periods -->
 				<td>Periods</td>
@@ -141,6 +147,7 @@
 				<td>N/A</td>
 			</tr>
 		</table>
+		<!-- This is the code for the searchbar -->
 		<form>
 			<input id="SearchBar" placeholder="Input Class" type= "text">
 		</form>
@@ -151,8 +158,11 @@
 		<br>
 		<br>
 		<br>
+		<!--This is the code for the image of Sans at the bottom of the schedule-->
 		<image class="Undertale3" src="https://vignette.wikia.nocookie.net/powerlisting/images/6/6a/Sans.jpg/revision/latest?cb=20160808062158"/>
+		<!--This is the code for the submit button -->
 		<button onclick="DearHearts()">Submit Class</button>
+		<!--This is where the JavaScript is linked to an outside file -->
 		<script src="Schedule.js"></script>
 	</body>
 </html>
