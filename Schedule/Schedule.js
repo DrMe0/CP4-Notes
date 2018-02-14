@@ -1,15 +1,30 @@
-var BigMommy = 1;
+var BigMommy = false;
+function Jiopoi(){
+	if(BigMommy)
+	{
+		Happy2();
+	}
+	else{
+		DearHearts();
+
+	}
+	
+}
 var F = "You do realize that you are clicking in the wrong place right now? If you want to see more information about a class you can just go ask me! <br> If your that desperate you can just go use the <br> search-bar below."
+var M = "Sorry folks, your going to have to refresh the page before you can search again!"
 function Happy() {
 	 document.getElementById("Table1").innerHTML = F
+}
+function Happy2() {
+	 document.getElementById("Table1").innerHTML = M
 }
 var Hananna = "Sorry Folks, if you want to search again, you got to refresh the page!"
 function Kilooo() {
 	document.getElementById("Table2").innerHTML = Hananna
 }
 function DearHearts() {
-	switch (BigMommy) {
-		case 1 :
+	/*switch (BigMommy) { 
+		case 1 : */
 			var typedClass = document.getElementById("SearchBar").value;
 			switch (typedClass){
 				case "French":
@@ -44,12 +59,8 @@ function DearHearts() {
 			var i;
 			for (i = 0; i < LetsGo.length; i++) {
 			LetsGo[i].style.backgroundColor = "yellow";
-			var BigMommy = BigMommy + 1;
-			break;
-		case 2 :
-			Kilooo();
-		break;
-	}
+			var BigMommy = true;
+			}
 }
 /* This section of the code features projects that I was not able to complete before the due date.
 		
