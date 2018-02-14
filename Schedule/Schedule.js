@@ -3,6 +3,7 @@ function Jiopoi(){
 	if(BigMommy)
 	{
 		Happy2();
+		history.go(0);*/
 	}
 	else{
 		DearHearts();
@@ -12,55 +13,63 @@ function Jiopoi(){
 }
 var F = "You do realize that you are clicking in the wrong place right now? If you want to see more information about a class you can just go ask me! <br> If your that desperate you can just go use the <br> search-bar below."
 var M = "Sorry folks, your going to have to refresh the page before you can search again!"
+var H = "Hey buddy, who's leg are you trying to pull? That ain't no class!"
 function Happy() {
-	 document.getElementById("Table1").innerHTML = F
+	 document.getElementById("Table1").innerHTML = F;
 }
 function Happy2() {
-	 document.getElementById("Table1").innerHTML = M
+	 document.getElementById("Table1").innerHTML = M;
+}
+function Happy3() {
+	 document.getElementById("Table1").innerHTML = H;
 }
 var Hananna = "Sorry Folks, if you want to search again, you got to refresh the page!"
 function Kilooo() {
-	document.getElementById("Table2").innerHTML = Hananna
+	document.getElementById("Table2").innerHTML = Hananna;
 }
 function DearHearts() {
-	/*switch (BigMommy) { 
-		case 1 : */
-			var typedClass = document.getElementById("SearchBar").value;
-			switch (typedClass){
-				case "French":
-					var Go = "French";
-				break;
-				case "Math":
-					var Go = "Math";
-				break;
-				case "English":
-					var Go = "English";
-				break;
-				case "Computer Programing":
-					var Go = "Computer-Programing";
-				break;
-				case "Theater Arts":
-					var Go = "Theater-Arts";
-				break;
-				case "Speech":
-					var Go = "Speech";
-				break;
-				case "Physical Education":
-					var Go = "Physical-Education";
-				break;
-				case "Advisors":
-					var Go = "Advisors";
-				break;
-				case "Religion":
-					var Go = "Religion";
-				break;
-			}
-			var LetsGo = document.getElementsByClassName(Go);
-			var i;
-			for (i = 0; i < LetsGo.length; i++) {
-			LetsGo[i].style.backgroundColor = "yellow";
-			var BigMommy = true;
-			}
+	var typedClass = document.getElementById("SearchBar").value;
+	switch (typedClass){
+		case "French":
+			var Go = "French";
+		break;
+		case "Math":
+			var Go = "Math";
+		break;
+		case "English":
+			var Go = "English";
+		break;
+		case "Computer Programing":
+			var Go = "Computer-Programing";
+		break;
+		case "Theater Arts":
+			var Go = "Theater-Arts";
+		break;
+		case "Speech":
+			var Go = "Speech";
+		break;
+		case "Physical Education":
+			var Go = "Physical-Education";
+		break;
+		case "Advisors":
+			var Go = "Advisors";
+		break;
+		case "Religion":
+			var Go = "Religion";
+		break;
+		case "Level-Assembly":
+			var Go = "Level-Assembly";
+		break;
+		case "Science":
+			var Go = "Science";
+		break;
+		default: Happy3();
+	}
+	var LetsGo = document.getElementsByClassName(Go);
+	for (i = 0; i < LetsGo.length; i++) {
+		LetsGo[i].style.backgroundColor = "yellow";
+	}
+	BigMommy = true;
 }
 /* This section of the code features projects that I was not able to complete before the due date.
 		
