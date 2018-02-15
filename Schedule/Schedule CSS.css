@@ -1,5 +1,5 @@
 /* h1 controls the CSS for the main "My Schedule" title */
-/* */
+/*This controls the page's main title */
 h1 {
 	font-family: Impact;
 	font-size: 100px;
@@ -10,6 +10,7 @@ h1 {
 	margin-bottom: 0px;
 
 }
+/*This is the CSS for the table */
 table, td, tr {
 	border: 2px solid blue;
 	position: static;
@@ -17,12 +18,14 @@ table, td, tr {
 .Spencer-Howard {
 	font-weight: bold;
 }
+/*This controls the big picture of the school */
 .Undertale1 {
 	width: 100%;
 	margin: auto;
 	margin-bottom: 0px;
 	position: relative;
 }
+/*This controls the school emblem. */
 .Undertale2 {
 	width: 250px;
 	margin: 0px;
@@ -31,12 +34,14 @@ table, td, tr {
 	left: 1050px;
 	z-index: 10;
 }
+/*This is the CSS for the picture of Sans. */
 .Undertale3 {
 	display: block;
 	width: 200px;
 	margin: auto;
 	z-index: 11;
 }
+/*This controls the scroll down text */
 h3 {
 	text-align: center;
 	font-family: cinzel;
@@ -45,16 +50,14 @@ h3 {
 	bottom: 300px;
 	left: 1130px;
 }
-
 body {
 	background-color: white;
 }
+/*This is the CSS for the searchbar */
 form {
 	text-align: center;
 }
-h4 {
-	text-align: center
-}
+/* This next section controls the color the classes become when the mouse is passed over them */
 .Math:hover{
 	background-color: black;
 }
@@ -88,6 +91,7 @@ h4 {
 .Science:hover{
 	background-color: pink;
 }
+/*This is the CSS for the button */
 button {
 	background-color: yellow;
 	display:block;
