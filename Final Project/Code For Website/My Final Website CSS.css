@@ -1,0 +1,84 @@
+﻿/* For the background */
+body, html {
+	height: 100%
+}
+:root {
+	--HeaderFontSize: 30px;
+	--Paddingleftamount: 30px;
+}
+.HeroOfTimess {
+	background-image: url("https://i.imgur.com/aIjcT7d.jpg");
+	height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#PortalMainTitle {
+	text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+	display: block;
+	padding: 20px;
+	padding-top: 10px;
+	background-image: url("https://goo.gl/images/DiV56g");
+}
+li {
+    float: left;
+}
+
+#Thomas-Jefferson {
+    display: inline;
+	display: block;
+    text-align: center;
+    text-decoration: none;
+	color: black;
+	padding-right: 300px;
+	font-size: var(--HeaderFontSize);
+	background-image: url("https://goo.gl/images/DiV56g");
+	background-color: blue;
+	
+}
+#ThomasUI-Jefferson {
+    display: inline;
+	display: block;
+    text-align: center;
+    text-decoration: none;
+	color: black;
+	padding-right: 300px;
+	padding-left: var(--Paddingleftamount);
+	font-size: var(--HeaderFontSize);
+	background-image: url("https://goo.gl/images/DiV56g");
+	background-color: blue;
+	
+}
+#Thomas-Less-Jefferson {
+    display: inline;
+	display: block;
+    text-align: center;
+    text-decoration: none;
+	color: black;
+	font-size: var(--HeaderFontSize);
+	background-color: blue;
+	padding-right: var(--Paddingleftamount);
+}
+.GE {
+	background-image: url("https://goo.gl/images/DiV56g");
+}
+p {
+	margin: 12px;
+}
+.Munchkin {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+h1 {
+	font-size: 60px;
+	margin-bottom: 5px;
+}
